@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mirror-hackathon/static/css/main.e64ca383.chunk.css",
+    "main.js": "/mirror-hackathon/static/js/main.1b9cade4.chunk.js",
+    "main.js.map": "/mirror-hackathon/static/js/main.1b9cade4.chunk.js.map",
+    "runtime-main.js": "/mirror-hackathon/static/js/runtime-main.38f336e2.js",
+    "runtime-main.js.map": "/mirror-hackathon/static/js/runtime-main.38f336e2.js.map",
+    "static/css/2.c02170a9.chunk.css": "/mirror-hackathon/static/css/2.c02170a9.chunk.css",
+    "static/js/2.b6f08c58.chunk.js": "/mirror-hackathon/static/js/2.b6f08c58.chunk.js",
+    "static/js/2.b6f08c58.chunk.js.map": "/mirror-hackathon/static/js/2.b6f08c58.chunk.js.map",
+    "index.html": "/mirror-hackathon/index.html",
+    "precache-manifest.aa0b48a97e3964ad5e7a9115f4a17653.js": "/mirror-hackathon/precache-manifest.aa0b48a97e3964ad5e7a9115f4a17653.js",
+    "service-worker.js": "/mirror-hackathon/service-worker.js",
+    "static/css/2.c02170a9.chunk.css.map": "/mirror-hackathon/static/css/2.c02170a9.chunk.css.map",
+    "static/css/main.e64ca383.chunk.css.map": "/mirror-hackathon/static/css/main.e64ca383.chunk.css.map",
+    "static/js/2.b6f08c58.chunk.js.LICENSE.txt": "/mirror-hackathon/static/js/2.b6f08c58.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mirror-hackathon/static/media/fa-solid-900.ee09ad75.woff",
+    "static/media/mirrorIcon.jpeg": "/mirror-hackathon/static/media/mirrorIcon.e8201d43.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38f336e2.js",
+    "static/css/2.c02170a9.chunk.css",
+    "static/js/2.b6f08c58.chunk.js",
+    "static/css/main.e64ca383.chunk.css",
+    "static/js/main.1b9cade4.chunk.js"
+  ]
+}
