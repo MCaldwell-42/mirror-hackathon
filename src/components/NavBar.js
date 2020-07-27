@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import navLogo from '../../mirrorIcon.jpeg';
+import navLogo from '../mirrorIcon.jpeg';
 
 const NavBar = () => (
   <Navbar bg="dark" variant="dark">
@@ -16,6 +16,7 @@ const NavBar = () => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
+    Mirror App: Smile for the Camera!
     </Nav>
     </Navbar.Collapse>
   </Navbar>
