@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap';
 const Camera = () => {
   const videoPlayer = useRef(null);
   const canvas = useRef(null);
+  var photoTaken = false;
 
   useEffect(() => {
     async function getCamera() {
@@ -43,17 +44,27 @@ const Camera = () => {
       const context = canvas.current.getContext('2d');
       context.drawImage(videoPlayer.current, 0, 0, canvas.current.width, canvas.current.height);
   }, 4000);
+     photoTaken = true;
   };
 
-//   const downloadPhoto = () => {
-//     var download = document.getElementById("download");
-//     var image = document.getElementById("canvas").toDataURL();
-//     download.setAttribute("href", image);
-//   }
+  const downloadPhoto = () => {
+    if (photoTaken == true){
+    const myCanvas = document.getElementById('my-canvas');
+    myCanvas.toBlob(
+        blob => {
+          const anchor = document.getElementById('download-link');
+          anchor.href = URL.createObjectURL(blob);
+        },
+        'image/jpeg',
+        0.9,
+      );
+    }
+    else {alert("no photo to download!")}
+  }
 
   return (
     <div className="video_booth">
-      <h2 id="camHeader">Photo Booth Time! Say Cheeeeese!</h2>
+      <h2 id="camHeader">Photo Booth! Say Cheese!</h2>
       <Button className='mr-2' onClick={() => turnCameraOff()}>Turn off Camera</Button>
       <Button className='mr-2' onClick={() => turnCameraOn()}>Turn on Camera</Button>
       <Button onClick={() => takePhoto()}>Take photo! (4s delay)</Button>
@@ -61,9 +72,9 @@ const Camera = () => {
         <video ref={videoPlayer} width="680" height="500" />
       </div>
       <div className="video_booth__stage mt-2">
-        <canvas className='canvas' width="680" height="500" ref={canvas} />
+        <canvas id="my-canvas" className='canvas' width="680" height="500" ref={canvas} />
       </div>
-        {/* <Button id="download" onClick={() => downloadPhoto()}>Download Photo</Button> */}
+       <a id="download-link" download="photobooth_pic.jpg"><Button onClick={() => downloadPhoto()}>Download Photo</Button></a>
     </div>
   );
 };
