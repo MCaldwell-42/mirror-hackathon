@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed5f46f356b980228d1e8cea32b22776",
+    "revision": "852204bd391442144c5ef2aaf063f972",
     "url": "/mirror-hackathon/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mirror-hackathon/static/css/2.c02170a9.chunk.css"
   },
   {
-    "revision": "d1b229c1fcdeb92a7b12",
+    "revision": "672c8851bc5694c87f2f",
     "url": "/mirror-hackathon/static/css/main.e64ca383.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mirror-hackathon/static/js/2.b6f08c58.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d1b229c1fcdeb92a7b12",
-    "url": "/mirror-hackathon/static/js/main.1b9cade4.chunk.js"
+    "revision": "672c8851bc5694c87f2f",
+    "url": "/mirror-hackathon/static/js/main.cf88a1dc.chunk.js"
   },
   {
     "revision": "54ca72ef392be7d85231",
